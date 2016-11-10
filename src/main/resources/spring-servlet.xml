@@ -14,8 +14,6 @@
 			expression="org.springframework.stereotype.Controller" />
 	</context:component-scan>
 		
-	<bean class="com.feelbat.listener.InitDataListener"></bean>
-	
 	<!-- 避免IE执行AJAX时,返回JSON出现下载文件 -->
 	<bean id="mappingJacksonHttpMessageConverter"
 		class="org.springframework.http.converter.json.MappingJacksonHttpMessageConverter">
